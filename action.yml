@@ -5,7 +5,7 @@ inputs:
     description: "Target to build for"
     required: true
     default: x64-windows
-
+author: "Juliette Cordor"
 runs:
   using: "composite"
   steps:
