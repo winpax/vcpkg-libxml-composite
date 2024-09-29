@@ -1,0 +1,15 @@
+name: Clippy Check
+
+on: [push]
+
+jobs:
+  install-libxml2:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install libxml2 with vcpkg
+        uses: ./
+        with:
+          target: |-
+            x64-windows
+            arm64-windows
