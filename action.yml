@@ -2,10 +2,9 @@ name: "libxml2 vcpkg"
 description: "Install libxml using vcpkg"
 inputs:
   target:
-    description: "Target(s) to build for"
+    description: "Target to build for"
     required: true
-    default: |-
-      x64-windows
+    default: x64-windows
 
 runs:
   using: "composite"
