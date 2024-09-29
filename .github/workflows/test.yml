@@ -10,6 +10,4 @@ jobs:
       - name: Install libxml2 with vcpkg
         uses: ./
         with:
-          target: |-
-            x64-windows
-            arm64-windows
+          target: x64-windows
